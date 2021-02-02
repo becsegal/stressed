@@ -1,0 +1,18 @@
+body{
+  padding: 0;
+  margin: 30px 0 0 0;
+  background: white;
+  color: #9b7b00;
+  font-family: 'Helvetica', serif;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#container > * {
+  margin: 10px;
+}
